@@ -10,8 +10,8 @@ Duktape supports the full E5/E5.1 feature set (with some semantics updated
 from ES2015+) including errors, Unicode strings, and regular expressions,
 a subset of Ecmascript 2015 (E6) and Ecmascript 2016 (E7) features (e.g.
 computed property names, Proxy objects, exponentiation operator, Reflect),
-ES2015 ArrayBuffer/TypedView, Node.js Buffer, and WHATWG Encoding API
-living standard.
+ES2015 ArrayBuffer/TypedView, Node.js Buffer, performance.now(), and WHATWG
+Encoding API living standard.
 
 Duktape also provides a number of custom features such as error tracebacks,
 additional data types for better C integration, combined reference counting
@@ -118,11 +118,11 @@ You can find release notes at:
 * https://github.com/svaarala/duktape/blob/master/RELEASES.rst
   (summary of all versions)
 
-* https://github.com/svaarala/duktape/blob/master/doc/release-notes-v2-1.rst
+* https://github.com/svaarala/duktape/blob/master/doc/release-notes-v2-2.rst
   (more detailed notes for this version)
 
-This distributable contains Duktape version 2.1.0, created from git
-commit 1f1f51a4f9595ffe8def0e9ba45b20f14679393a (v2.1.0).
+This distributable contains Duktape version 2.2.1, created from git
+commit 25420e773c5fbc50d5b46bf487fc45717e35b94f (v2.2.1).
 
 Duktape is copyrighted by its authors (see ``AUTHORS.rst``) and licensed
 under the MIT license (see ``LICENSE.txt``).  String hashing algorithms are
