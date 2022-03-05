@@ -55,8 +55,6 @@ DEF(finally, "finally")
 DEF(function, "function")
 DEF(debugger, "debugger")
 DEF(with, "with")
-DEF(__file__, "__FILE__")
-DEF(__dir__, "__DIR__")
 /* FutureReservedWord */
 DEF(class, "class")
 DEF(const, "const")
@@ -81,7 +79,6 @@ DEF(await, "await")
 DEF(empty_string, "")
 /* identifiers */
 DEF(length, "length")
-DEF(tag, "tag")
 DEF(fileName, "fileName")
 DEF(lineNumber, "lineNumber")
 DEF(message, "message")
@@ -227,9 +224,6 @@ DEF(BigDecimal, "BigDecimal")
 DEF(OperatorSet, "OperatorSet")
 DEF(Operators, "Operators")
 #endif
-#ifdef CONFIG_JSX
-DEF(JSX, "JSX")
-#endif
 DEF(Map, "Map")
 DEF(Set, "Set") /* Map + 1 */
 DEF(WeakMap, "WeakMap") /* Map + 2 */
@@ -275,8 +269,5 @@ DEF(Symbol_asyncIterator, "Symbol.asyncIterator")
 #ifdef CONFIG_BIGNUM
 DEF(Symbol_operatorSet, "Symbol.operatorSet")
 #endif
-    
-DEF(Symbol_tag, "Symbol.tag")
-
     
 #endif /* DEF */
